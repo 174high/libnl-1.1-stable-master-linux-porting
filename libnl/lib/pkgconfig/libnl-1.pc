@@ -1,0 +1,10 @@
+prefix=/home/visteon/libnl-1.1-stable-master/libl
+exec_prefix=/home/visteon/libnl-1.1-stable-master/libl
+libdir=${exec_prefix}/lib
+includedir=/home/visteon/libnl-1.1-stable-master/libl/include
+
+Name: libnl
+Description: Convenience library for netlink sockets
+Version: 1.1.4
+Libs: -L${libdir} -lnl
+Cflags:
